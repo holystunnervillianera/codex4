@@ -1,0 +1,7 @@
+Test ID,Actor,Resource/Action,Expected Result,Actual Result,Status,Evidence
+AUTH-001,Anonymous,Protected page/API,Denied without protected data,,Unknown,
+AUTH-002,User A,Read User B object by ID,Denied; no existence or data leakage,,Unknown,
+AUTH-003,User A,Modify User B object by ID,Denied; no state change,,Unknown,
+AUTH-004,Normal user,Direct admin API call,Denied server-side,,Unknown,
+AUTH-005,Suspended user,Use existing session,Denied/revoked as designed,,Unknown,
+AUTH-006,User A,List/download User B private file,Denied; metadata protected,,Unknown,

@@ -1,0 +1,185 @@
+{
+  "version": "1.0",
+  "questions": [
+    {
+      "id": "Q01",
+      "category": "Access Control",
+      "question": "Can an unauthenticated user call any protected API or read protected data?",
+      "weight": 5,
+      "answers": {
+        "pass": 5,
+        "fail": 0,
+        "unknown": 0,
+        "na": null
+      }
+    },
+    {
+      "id": "Q02",
+      "category": "Access Control",
+      "question": "Have you tried changing a record ID to access another user's data?",
+      "weight": 5,
+      "answers": {
+        "pass": 5,
+        "fail": 0,
+        "unknown": 0,
+        "na": null
+      }
+    },
+    {
+      "id": "Q03",
+      "category": "Access Control",
+      "question": "Are admin actions rejected on the server for normal users?",
+      "weight": 5,
+      "answers": {
+        "pass": 5,
+        "fail": 0,
+        "unknown": 0,
+        "na": null
+      }
+    },
+    {
+      "id": "Q04",
+      "category": "Secrets and Data",
+      "question": "Have source, Git history, logs, and browser bundles been checked for secrets?",
+      "weight": 5,
+      "answers": {
+        "pass": 5,
+        "fail": 0,
+        "unknown": 0,
+        "na": null
+      }
+    },
+    {
+      "id": "Q05",
+      "category": "Secrets and Data",
+      "question": "Is production personal or sensitive data excluded from development and AI prompts?",
+      "weight": 5,
+      "answers": {
+        "pass": 5,
+        "fail": 0,
+        "unknown": 0,
+        "na": null
+      }
+    },
+    {
+      "id": "Q06",
+      "category": "Secrets and Data",
+      "question": "Are backups and exports protected and restorable?",
+      "weight": 3,
+      "answers": {
+        "pass": 3,
+        "fail": 0,
+        "unknown": 0,
+        "na": null
+      }
+    },
+    {
+      "id": "Q07",
+      "category": "Correctness",
+      "question": "Are all mock, fixture, static, and fallback responses inventoried?",
+      "weight": 5,
+      "answers": {
+        "pass": 5,
+        "fail": 0,
+        "unknown": 0,
+        "na": null
+      }
+    },
+    {
+      "id": "Q08",
+      "category": "Correctness",
+      "question": "Can integration failure ever be presented as success?",
+      "weight": 5,
+      "answers": {
+        "pass": 5,
+        "fail": 0,
+        "unknown": 0,
+        "na": null
+      }
+    },
+    {
+      "id": "Q09",
+      "category": "Correctness",
+      "question": "Do regression tests protect the primary user journeys?",
+      "weight": 5,
+      "answers": {
+        "pass": 5,
+        "fail": 0,
+        "unknown": 0,
+        "na": null
+      }
+    },
+    {
+      "id": "Q10",
+      "category": "Agent Control",
+      "question": "Does the coding agent have persistent written project rules?",
+      "weight": 5,
+      "answers": {
+        "pass": 5,
+        "fail": 0,
+        "unknown": 0,
+        "na": null
+      }
+    },
+    {
+      "id": "Q11",
+      "category": "Agent Control",
+      "question": "Are protected files/behaviors and approval gates identified?",
+      "weight": 5,
+      "answers": {
+        "pass": 5,
+        "fail": 0,
+        "unknown": 0,
+        "na": null
+      }
+    },
+    {
+      "id": "Q12",
+      "category": "Agent Control",
+      "question": "Must completion include test and diff evidence?",
+      "weight": 3,
+      "answers": {
+        "pass": 3,
+        "fail": 0,
+        "unknown": 0,
+        "na": null
+      }
+    },
+    {
+      "id": "Q13",
+      "category": "Recovery and Launch",
+      "question": "Is there a known-good checkpoint?",
+      "weight": 5,
+      "answers": {
+        "pass": 5,
+        "fail": 0,
+        "unknown": 0,
+        "na": null
+      }
+    },
+    {
+      "id": "Q14",
+      "category": "Recovery and Launch",
+      "question": "Has rollback been tested?",
+      "weight": 5,
+      "answers": {
+        "pass": 5,
+        "fail": 0,
+        "unknown": 0,
+        "na": null
+      }
+    },
+    {
+      "id": "Q15",
+      "category": "Recovery and Launch",
+      "question": "Has the deployed environment been tested from a clean user session?",
+      "weight": 3,
+      "answers": {
+        "pass": 3,
+        "fail": 0,
+        "unknown": 0,
+        "na": null
+      }
+    }
+  ]
+}
