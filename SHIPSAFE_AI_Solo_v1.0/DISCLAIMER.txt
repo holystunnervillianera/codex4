@@ -1,0 +1,5 @@
+SHIPSAFE AI provides general software-development and risk-management information. It does not guarantee that any application is secure, correct, compliant, available, profitable, or suitable for production. It is not legal, privacy, regulatory, financial, or professional security advice.
+
+Security and software risks vary by architecture, data, jurisdiction, threat model, vendors, and implementation. High-risk systems require qualified engineering, security, privacy, and legal review. The user remains responsible for inspecting changes, protecting credentials and data, testing, backups, deployment decisions, and incident response.
+
+References to third-party products describe interoperability concepts and do not imply affiliation, endorsement, or continuing compatibility.
