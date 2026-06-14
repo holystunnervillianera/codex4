@@ -1,0 +1,7 @@
+Test ID,Feature/Journey,Precondition,Steps,Expected Result,Priority,Status,Evidence
+REG-001,Registration and first login,,"Create account, verify, sign in","Correct account, role, and session",Critical,Not run,
+REG-002,Primary product outcome,,Complete main workflow,Expected durable state and confirmation,Critical,Not run,
+REG-003,Cross-user access,User A and User B exist,Change record ID/path from A to B,Access denied; no data leakage,Critical,Not run,
+REG-004,Integration failure,,Force provider timeout/rejection,Visible safe failure; no fake success,Critical,Not run,
+REG-005,Duplicate action,,Repeat submission/webhook,Idempotent or safely rejected,High,Not run,
+REG-006,Clean browser,,Run main flow in new session,No hidden developer-state dependency,High,Not run,
